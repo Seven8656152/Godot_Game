@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnjwwtljrvecj"]
+
+[ext_resource type="Script" uid="uid://qucnmq0se0da" path="res://move_indicator/move_indicator.gd" id="1_d4xnc"]
+
+[node name="MoveIndicator" type="Node2D"]
+script = ExtResource("1_d4xnc")
+center_fill_color = Color(0, 0.792157, 0.909804, 0.47451)
+edge_fill_color = Color(0.219608, 0.835294, 0.952941, 0.454902)
+edge_color = Color(0, 0.415686, 0.694118, 0.431373)
+
+[node name="EllipseArea" type="Polygon2D" parent="."]
+color = Color(0.2, 0.6, 1, 0.3)
+
+[node name="EllipseEdge" type="Line2D" parent="."]
+width = 2.0
+default_color = Color(0.8, 0.9, 1, 0.8)
+antialiased = true

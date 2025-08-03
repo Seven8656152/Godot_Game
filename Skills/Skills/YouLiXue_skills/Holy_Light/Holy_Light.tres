@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="SkillResource" load_steps=3 format=3 uid="uid://pd1s8spknoif"]
+
+[ext_resource type="Texture2D" uid="uid://dymdqgvytw08n" path="res://Skills/Skills/YouLiXue_skills/Holy_Light/icon/Holy_Light.png" id="1_i1hhl"]
+[ext_resource type="Script" uid="uid://4tipxhepgp1s" path="res://Skills/gdscript/SkillResource.gd" id="2_i1hhl"]
+
+[resource]
+script = ExtResource("2_i1hhl")
+name = "Holy_Light"
+description = "降下一道圣光，恢复友方的生命值"
+icon = ExtResource("1_i1hhl")
+cast_time = 2.0
+target_type = 2
+area_shape = 1
+Continuous_skills = true
+skill_distance = 500
+effect_types = Array[int]([0, 1])
+element_type = 1
+damage_times = Array[float]([1.25])
+D_Atk_bonus = 0.8
+M_Atk_bonus = 0.8
+metadata/_custom_type_script = "uid://4tipxhepgp1s"

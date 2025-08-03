@@ -70,7 +70,7 @@ func select_character(character: Character):
 	emit_signal("character_selected", character)
 
 
-# 角色移动
+#  角色移动
 func character_move():
 	if not selected_character or selected_character.has_moved:
 		return
